@@ -104,7 +104,6 @@ function llenarSelectYears() {
 function filtrarAuto() {
     const resultado = autos.filter( filtrarMarca ).filter( filtrarYear ).filter( filtrarPrecioMinimo ).filter( filtrarPrecioMaximo ).filter( filtrarPuertas ).filter( filtrarTransmision ).filter( filtrarColor)
 
-    // console.log(resultado)
     mostrarAutos(resultado);
 
     if(resultado.length) {
